@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Tailwind css -->
+    <link rel="stylesheet" href="./dist/output.css">
+    <title>Willy portfolio</title>
+</head>
+
+<body class="bg-gray-900 font-poppins">
+    <!-- Contenedor -->
+    <div class="mx-3 lg:w-full max-w-screen-lg lg:mx-auto">
+        <!-- Header -->
+        <header>
+            <!-- Presentación -->
+            <div class="h-screen flex flex-col justify-center content-center">
+                <!-- Título -->
+                <div class="lg:flex flex-col justify-center">
+                    <h1 class="text-white text-lg text-center lg:text-xl"><span
+                            class="block mb-2 font-bold text-3xl lg:text-5xl">Hola,
+                            soy
+                            <span class="text-amber-400">Willy</span></span>Full Stack Developer</h1>
+                </div>
+            </div>
+        </header>
+        <!-- Main -->
+        <main>
+            <!-- Contenedor main-->
+            <div class="lg:mx-6">
+                <!-- Sobre mí -->
+                <section>
+                    <div class="mb-2">
+                        <!-- Rectangulo -->
+                        <div class="h-2 w-8 rounded bg-amber-400"></div>
+                        <!-- Título -->
+                        <h2 class="font-semibold text-white">Sobre mi</h2>
+                    </div>
+                    <!-- Descripción -->
+                    <p class="text-slate-200 font-thin mb-3">
+                        Soy estudiante del Grado Superior de Aplicaciones Multiplataforma (DAM). En 2020
+                        decidí hacer un cambio de rumbo en mi vida laboral y entré en el fascinante mundo de la
+                        programación. Desde entonces he aprendido de manera autonoma diferentes lenguajes.</p>
+                    <!-- Intereses laborales -->
+                    <p class="text-slate-200 font-thin">Entre mis intereses están el desarrollo de aplicaciones para
+                        móvil
+                        y los microservicios.</p>
+                </section>
+                <!-- Proyectos -->
+                <section class="mt-6">
+                    <div class="mb-2">
+                        <!-- Rectangulo -->
+                        <div class="h-2 w-8 rounded bg-amber-400"></div>
+                        <!-- Título -->
+                        <h2 class="font-semibold text-white">Proyectos</h2>
+                    </div>
+                    <!-- Grid de proyectos -->
+                    <div class="grid grid-cols-1 gap-y-5 sm:grid-cols-2 sm:gap-4 lg:grid-cols-3 lg:gap-4 mt-6">
+                        <!-- Asesoria Roma -->
+                        <a href="https://www.assessoriaroma.com/" class="block" target="_blank">
+                            <!-- Imagen -->
+                            <img src="public/assessoria_roma.webp" alt="" class="h-52 w-full lg:w-80 text-white">
+                        </a>
+
+                        <!-- Proyecto Pokedex -->
+                        <a href="https://github.com/Willy93-coder/Pokedex.git" class="block" target="_blank">
+                            <!-- Imagen -->
+                            <img src="./public/pokemon_logo.webp" alt="imagen de la palabra Pokedex"
+                                class="object-cover h-52 w-full lg:w-80 text-white">
+                        </a>
+
+                    </div>
+                </section>
+                <!-- Tecnologías -->
+                <section class="mt-6">
+                    <div class="mb-2">
+                        <!-- Rectangulo -->
+                        <div class="h-2 w-8 rounded bg-amber-400"></div>
+                        <!-- Título -->
+                        <h2 class="font-semibold text-white">Tecnologías</h2>
+                    </div>
+                    <div class="grid grid-cols-4 gap-4 justify-items-center mt-6 lg:grid-cols-8">
+                        <!-- Icono HTML 5 -->
+                        <img src="public/html5_icon.svg" alt="icono de html 5" class="inline-block">
+                        <!-- Icono CSS 3 -->
+                        <img src="public/css3_icon.svg" alt="icono de css 3" class="inline-block">
+                        <!-- Icono Sass -->
+                        <img src="public/sass_icon.svg" alt="icono de sass" class="inline-block">
+                        <!-- Icono tailwinds -->
+                        <img src="public/tailwind_icon.svg" alt="icono de tailwind css" class="inline-block">
+                        <!-- Icono JavaScript -->
+                        <img src="public/javascript_icon.svg" alt="icono de javaScript" class="inline-block">
+                        <!-- Icono de React -->
+                        <img src="public/react_icon.svg" alt="icono de react js que es un atomo" class="inline-block">
+                        <!-- Icono Java -->
+                        <img src="public/java_icon.svg" alt="icono de java" class="inline-block">
+                        <!-- Icono git -->
+                        <img src="public/git_icon.svg" alt="icono de git" class="inline-block">
+                    </div>
+                </section>
+            </div>
+        </main>
+        <!-- Footer -->
+        <footer>
+            <!-- Contenedor -->
+            <div class="mt-6 py-8 lg:mx-6">
+                <div class="grid grid-cols-2 justify-items-center">
+                    <!-- Link github -->
+                    <a href="https://github.com/Willy93-coder" target="_blank"
+                        class="text-slate-200 font-light">GitHub</a>
+                    <!-- Link linkedin -->
+                    <a href="https://www.linkedin.com/in/guillermocifre/" target="_blank"
+                        class="text-slate-200 font-light">LinkedIn</a>
+                </div>
+                <!-- Año creación -->
+                <h6 class="text-center text-slate-200 font-thin">2022</h6>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
